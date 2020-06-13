@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/account/account",
+    "pages/writeoff/writeoff",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundColor": "#000000",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "家庭账本",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#567bf3",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "记账",
+        "iconPath": "images/accountbook.png",
+        "selectedIconPath": "images/accountbook_active.png"
+      },
+      {
+        "pagePath": "pages/account/account",
+        "text": "账户",
+        "iconPath": "images/wallet.png",
+        "selectedIconPath": "images/wallet_active.png"
+      },
+      {
+        "pagePath": "pages/writeoff/writeoff",
+        "text": "销账",
+        "iconPath": "images/check-square.png",
+        "selectedIconPath": "images/check-square_active.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user_active.png"
+      }
+    ]
+  }
+}

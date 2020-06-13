@@ -1,0 +1,90 @@
+.container {
+  padding: 10rpx 20rpx;
+}
+.family-container {
+  display: flex;
+  padding: 10rpx 0;
+}
+.family-member {
+  display: flex;
+  flex-direction: column;
+  width: 140rpx;
+  height: 180rpx;
+  box-sizing: border-box;
+}
+.avatar {
+  width: 100rpx;
+  height: 100rpx;
+  border: 1rpx solid #cf7500;
+  border-radius: 50%;
+  margin: 20rpx;
+  background-color: #f4f4f4;
+  line-height: 90rpx;
+  text-align: center;
+}
+.plus-sign {
+  font-size: 60rpx;
+  font-weight: 100;
+  color: #cf7500;
+}
+.nickname {
+  text-align: center;
+  color: #cccccc;
+}
+
+.current-period-container {
+  padding: 10rpx;
+  /* background-color: white; */
+  border-radius: 20rpx;
+  margin: 0;
+}
+.current-period-title {
+  color: #cccccc;
+  text-align: center;
+  margin: 20rpx 0;
+}
+.summary {
+  margin-bottom: 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.summary-type {
+  width: 200rpx;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  /* border: 1rpx solid red; */
+}
+.vertical-devider {
+  box-sizing: border-box;
+  width: 1rpx;
+  border: 1rpx solid #cccccc;
+}
+.horizontal-devider {
+  box-sizing: border-box;
+  height: 1rpx;
+  border: 1rpx solid #cccccc;
+}
+.summary-type .normal {
+  color: green;
+}
+.summary-type .danger {
+  color: #cf7500;
+}
+
+.trans {
+  margin: 20rpx 0;
+  height: 100rpx;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.trans-left {
+  display: flex;
+  flex-direction: column;
+}
+.trans-right {
+  display: flex;
+  flex-direction: column;
+}

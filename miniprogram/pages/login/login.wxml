@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="login-container">
+    <view class="center">
+      <image class="avatar" src="{{avatarUrl}}"></image>
+      <button type="primary"
+      bindgetuserinfo="onGetUserInfo"
+      open-type="getUserInfo">Login</button>
+    </view>
+  </view>
+  <view class="text-container">
+    <text class="logintext">请使用您的微信账号登陆<text class="brandtext">幸福账本</text></text>
+  </view>
+</view>

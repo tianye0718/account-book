@@ -1,0 +1,33 @@
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.login-container{
+  text-align: center;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding-bottom: 100rpx;
+}
+
+.avatar {
+  width: 256rpx;
+  height: 256rpx;
+  margin-bottom: 100rpx;
+}
+
+.text-container{
+  margin-bottom: 40rpx;
+}
+.logintext {
+  font-size: 28rpx;
+  color: #ccc;
+}
+.brandtext {
+  margin-left: 20rpx;
+  color: mediumpurple;
+  font-weight: bold;
+}

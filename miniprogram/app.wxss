@@ -1,0 +1,16 @@
+@import 'style/iconfont.wxss';
+
+page {
+  background: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 26rpx;
+  color: white;
+}
+.primary-text-light {
+  color: white;
+}
+.secondary-text-light {
+  color: #cccccc;
+}

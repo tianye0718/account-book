@@ -1,0 +1,81 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="family-container">
+    <view class="family-member">
+      <image class="avatar" src="{{userInfo.avatarUrl}}"></image>
+      <text class="nickname">{{userInfo.nickName}}</text>  
+    </view>
+    <view class="family-member">
+      <image class="avatar" src="{{userInfo.avatarUrl}}"></image>
+      <text class="nickname">{{userInfo.nickName}}</text>
+    </view>
+    <view class="family-member">
+      <view class="avatar"><text class="plus-sign">+</text></view>
+      <text class="nickname">添加成员</text>
+    </view>
+  </view>
+
+  <view class="current-period-container">
+    <view class="current-period-title">当前记账周期：10 June 2020 - 23 June 2020</view>
+    <view class="summary">
+      <view class="summary-type">
+        <text>$ {{period_summary.income}}</text>
+        <text class="secondary-text-light">收入</text>
+      </view>
+      <view class="vertical-devider"></view>
+      <view class="summary-type">
+        <text>$ {{period_summary.outcome}}</text>
+        <text class="secondary-text-light">支出</text>
+      </view>
+      <view class="vertical-devider"></view>
+      <view class="summary-type">
+        <text class="{{period_summary.income - period_summary.outcome > 0 ? 'normal' : 'danger'}}">$ {{period_summary.income - period_summary.outcome}}</text>
+        <text class="secondary-text-light">差额</text>
+      </view>
+    </view>
+  </view>
+  <button type="warn">记一笔</button>
+  <view class="transaction-container">
+    <view class="trans">
+      <view class="trans-left">
+        <text>明细</text>
+      </view>
+      <view class="trans-right">
+        <text>查看全部 ></text>
+      </view>
+    </view>
+    <view class="horizontal-devider"></view>
+    <view class="trans">
+      <view class="trans-left">
+        <text>早餐</text>
+        <text class="secondary-text-light">今天 7:21</text>
+      </view>
+      <view class="trans-right">
+        <text>$ 12.5</text>
+        <text class="secondary-text-light">家庭账户</text>
+      </view>
+    </view>
+    <view class="horizontal-devider"></view>
+    <view class="trans">
+      <view class="trans-left">
+        <text>早餐</text>
+        <text class="secondary-text-light">今天 8:21</text>
+      </view>
+      <view class="trans-right">
+        <text>$ 12.5</text>
+        <text class="secondary-text-light">家庭账户</text>
+      </view>
+    </view>
+    <view class="horizontal-devider"></view>
+    <view class="trans">
+      <view class="trans-left">
+        <text>早餐</text>
+        <text class="secondary-text-light">今天 7:21</text>
+      </view>
+      <view class="trans-right">
+        <text>$ 12.5</text>
+        <text class="secondary-text-light">家庭账户</text>
+      </view>
+    </view>
+  </view>
+</view>
